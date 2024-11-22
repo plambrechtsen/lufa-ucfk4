@@ -160,6 +160,8 @@
 			#include "XMEGA/C3_XPLAINED/Buttons.h"
 		#elif (BOARD == BOARD_U2S)
 			#include "AVR8/U2S/Buttons.h"
+		#elif (BOARD == BOARD_UCFK4)
+			#include "AVR8/UCFK4/Buttons.h"
 		#else
 			#include "Board/Buttons.h"
 		#endif

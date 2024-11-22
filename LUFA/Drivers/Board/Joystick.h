@@ -122,6 +122,8 @@
 			#include "UC3/EVK1101/Joystick.h"
 		#elif (BOARD == BOARD_EVK1100)
 			#include "UC3/EVK1100/Joystick.h"
+		#elif (BOARD == BOARD_UCFK4)
+			#include "AVR8/UCFK4/Joystick.h"
 		#else
 			#include "Board/Joystick.h"
 		#endif
